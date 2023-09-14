@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+
+</body>
+<script>
+function sayHello() {
+    let name = prompt("What is your name?"); 
+    if (name == "Charles" || name == "Elizabeth") {
+        alert("Hello, Your Majesty");
+    }
+    else {
+        alert("Hello, " + name);
+    }
+}
+sayHello();
+
+function knockKnock() {
+    let knocker = "Doctor";
+    let answer1 = prompt("Knock Knock");
+    if (answer1 == "Who's there?") {
+        let answer2 = prompt("Doctor");
+        if (answer2 == "Doctor who?") {
+            alert("Doctor Who! Hahahahaha");
+        }
+        else {
+            alert("incorrect response, please try again");
+    }
+        }
+    else {
+        alert("incorrect response, please try again");
+    }
+    }
+
+knockKnock()
+
+function rectangleArea() {
+    let height = prompt("What is the height of your rectangle?");
+    let width = prompt("What is the width of your rectangle?");
+    alert("The area of your rectangle is " + height * width);
+}
+
+
+
+</script>
